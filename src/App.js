@@ -1,7 +1,7 @@
 import React from "react";
 
 function App() {
-  const value = "World - from branch";
+  const value = "World - from branch and commit";
   return <div>Hello {value}</div>;
 }
 
