@@ -14,8 +14,6 @@ stages:
     jobs:
       - deployment: devdeploy
         environment: staging
-        variables:
-        - group: "dev variable group"
         strategy:
           runOnce:
             deploy:
