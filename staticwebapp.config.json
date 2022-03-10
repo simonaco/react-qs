@@ -1,5 +1,11 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
-    }
+    },
+    "routes": [
+        {
+            "route": "/react(/.*)?",
+            "rewrite": "https://lively-desert-016ad4d00.azurestaticapps.net/home$1"
+          }
+    ]
 }
